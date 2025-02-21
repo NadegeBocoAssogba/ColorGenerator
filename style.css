@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 1s;
+}
+h2 {
+  background-color: #000000;
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 5px;
+  color: #fff;
+  transition: 1s;
+}
+.bouton {
+  position: absolute;
+  font-size: 1.2;
+  align-self: flex-end;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 80px;
+  margin-left: 92vw;
+  margin-bottom: 10px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bouton:hover {
+  background-color: gray;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
